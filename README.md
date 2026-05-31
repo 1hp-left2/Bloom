@@ -18,7 +18,7 @@ The MVP is organized around clean architecture boundaries:
 - `src/data`: repositories, first-run state initialization, and production services for habits, ecosystems, discoveries, friends, notifications, profile, and seasons.
 - `src/application`: persisted app actions and the `useMosslight` state hook.
 - `src/components`: reusable UI components.
-- `src/audit`: production audit findings and remaining launch blockers.
+- `src/audit`: production audit findings, merge-resolution notes, and remaining launch blockers.
 - `supabase/migrations`: backend schema and row-level security.
 
 ## Production capabilities in this MVP
